@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.template.loader import get_template
 # Dont Repeat Yourself = DRY
 
-# from .forms import ContactForm
+from .forms import ContactForm
 from blog.models import BlogPost
 
 
